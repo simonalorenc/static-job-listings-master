@@ -1,0 +1,53 @@
+{
+    "offers": [
+        {
+            "image": "./images/photosnap.svg",
+            "companyName": "Photosnap",
+            "title": "Senior Frontend Developer",
+            "workTimeAndPlace": ["1d ago", "Full time", "USA only"],
+            "workCharacters": ["Frontend", "Senior", "HTML", "CSS", "JavaScript"]
+        },
+        {
+            "image": "./images/manage.svg",
+            "companyName": "Manage",
+            "title": "Fullstack Developer",
+            "workTimeAndPlace": ["1d ago", "Part time", "Remote"],
+            "workCharacters": ["Fullstack", "Midweight", "Python", "React"]
+        },
+        {
+            "image": "./images/account.svg",
+            "companyName": "Account",
+            "title": "Junior Frontend Developer",
+            "workTimeAndPlace": ["2d ago", "Part time", "USA only"],
+            "workCharacters": ["Frontend", "Junior", "React", "Sass", "JavaScript"]
+        },
+        {
+            "image": "./images/myhome.svg",
+            "companyName": "MyHome",
+            "title": "Junior Frontend Developer",
+            "workTimeAndPlace": ["5d ago", "Contract", "USA only"],
+            "workCharacters": ["Frontend", "Junior", "CSS", "JavaScript"]
+        },
+        {
+            "image": "./images/loop-studios.svg",
+            "companyName": "Loop Studios",
+            "title": "Software Engineer",
+            "workTimeAndPlace": ["1w ago", "Full time", "Worldwide"],
+            "workCharacters": ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"]
+        },
+        {
+            "image": "./images/faceit.svg",
+            "companyName": "Faceit",
+            "title": "Junior Backend Developer",
+            "workTimeAndPlace": ["2w ago", "Full-time", "UK only"],
+            "workCharacters": ["Backend", "Junior", "Ruby", "RoR"]
+        },
+        {
+            "image": "./images/shortly.svg",
+            "companyName": "Shortly",
+            "title": "Junior Developer",
+            "workTimeAndPlace": ["2w ago", "Full time", "Worldwide"],
+            "workCharacters": ["Frontend", "Junior", "HTML", "Sass", "JavaScript"]
+        }
+    ]
+}

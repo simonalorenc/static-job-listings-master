@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Rubik:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbe6e8;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  height: 120px;
+  background-color: #4fa5a8;
+}
+
+.job-offers-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: auto;
+}
+
+.job-offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 130px;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 43px -31px #87899f;
+  -moz-box-shadow: 0px 5px 43px -31px #87899f;
+  box-shadow: 0px 5px 43px -31px #87899f;
+}
+
+.job-main-info {
+  display: flex;
+  align-items: center;
+}
+
+.job-logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin: 20px;
+  height: 70px;
+}
+
+.job-info .job-info__name {
+  display: flex;
+  color: #4fa5a8;
+  font-size: 17px;
+  font-size: 700;
+}
+
+.job-info .job-info__position {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.job-info .job-info__time-place {
+  color: gray;
+}
+
+.job-categories {
+  display: flex;
+}
+
+.job-categories .job-categories__category {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 15px;
+  color: #4fa5a8;
+  font-size: 13px;
+  background-color: #deeaec;
+}
+
+.filter-input {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: absolute;
+  top: 90px;
+  width: 800px;
+  background-color: white;
+  padding: 10px;
+}
+
+.filter-input .filter-input__category {
+  color: #4fa5a8;
+  background-color: #deeaec;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  color: #4fa5a8;
+  background-color: #deeaec;
+  padding-left: 5px;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.category .category__delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: white;
+  background-color: #4fa5a8;
+}
