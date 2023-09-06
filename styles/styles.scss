@@ -55,6 +55,11 @@ body{
     height: 88px;
     border-radius: 50%;
     margin-left: 40px;
+
+    & &__img {
+        width: 88px;
+        height: 88px;
+    }
 }
 
 .job-info{
@@ -101,6 +106,7 @@ body{
 .filter-input {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 40px;
     position: absolute;
     top: 90px;
@@ -111,6 +117,11 @@ body{
     & &__category {
         color: rgb(79, 165, 168);
         background-color: rgb(222, 234, 236);
+    }
+
+    & &__categories-container {
+        display: flex;
+
     }
 }
 
@@ -133,4 +144,20 @@ body{
         color: white;
         background-color: rgb(79, 165, 168);
     }
+
+    // & &__clear {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     height: 22px;
+    //     color: rgb(79, 165, 168);
+    // }
+}
+
+.category__clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    color: rgb(79, 165, 168);
 }
