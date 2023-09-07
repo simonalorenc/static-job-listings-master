@@ -20,8 +20,8 @@ export function renderOffers() {
     let offersToRender = offers
     if(selectedFilters.length > 0) {
         offersToRender = offers.filter(offer => 
-            offer.workCharacters.some(workCharacter => 
-                selectedFilters.includes(workCharacter)
+            selectedFilters.every(filter => 
+                offer.workCharacters.includes(filter)
             ) 
         )
     }
@@ -29,3 +29,18 @@ export function renderOffers() {
         createJobOffer(offer)
     })
 }
+
+// export function renderOffers() {
+//     jobOffersContainer.innerHTML = ''
+//     let offersToRender = offers
+//     if(selectedFilters.length > 0) {
+//         offersToRender = offers.filter(offer => 
+//             offer.workCharacters.some(workCharacter => 
+//                 selectedFilters.includes(workCharacter)
+//             ) 
+//         )
+//     }
+//     offersToRender.forEach(offer => {
+//         createJobOffer(offer)
+//     })
+// }
